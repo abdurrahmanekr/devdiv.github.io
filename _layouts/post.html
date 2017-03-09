@@ -20,7 +20,7 @@ layout: default
 	<div class="dev-list">
 		<ul>
 			{% for post in site.posts %}
-				<a href="{{ post.baseurl }} {{ post.url }}">
+				<a href="{{ baseurl }} {{ post.url }}">
 					{% if page.title == post.title %}
 						<li class="text-assertive">{{ post.title }}</li>
 					{% else %}
